@@ -1,0 +1,25 @@
+.links{
+    margin-left:auto;
+    visibility:hidden;
+}
+.navbar-brand{
+    font-size:300%;
+}
+.div1000{
+    height:1000px;
+    border:1px solid black;
+    margin-bottom:20px;
+    text-align:center;
+    overflow:auto;;
+}
+div p{
+    text-align:justify;
+    line-height:2;
+    padding:0 10px;
+}
+
+@media (max-width:575px){
+    .links{
+        visibility:visible;
+    }
+}
